@@ -11,6 +11,7 @@ def banner():
 
 def main():
     banner()
+    print("\nThis program converts a sentence into one camelCase word.\n")
     sentence = input("Enter your sentence: ")
     output = camelcase(sentence)
     print(output)
