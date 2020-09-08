@@ -4,7 +4,13 @@ def camelcase (sentence):
 
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
+def banner():
+    message = "CAMMELCASE PROGRAM!!"
+    stars = "*" * len(message)
+    print(f"{stars}\n{message}\n{stars}")
+
 def main():
+    banner()
     sentence = input("Enter your sentence: ")
     output = camelcase(sentence)
     print(output)
